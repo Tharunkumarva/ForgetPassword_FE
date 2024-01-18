@@ -72,7 +72,7 @@ const ForgotPassword = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3000/forgot-password", {
+    fetch("https://password-reset-ppcm.onrender.com/forgot-password", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
